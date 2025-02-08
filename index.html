@@ -1,0 +1,83 @@
+<!DOCTYPE>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./css/open-swatch.css">
+    <link rel="stylesheet" href="./css/page.css">
+    <title>open swatch - the open color system</title>
+  </head>
+
+  <body>
+    <header hero>
+      <h1>Open Swatch</h1>
+      <div>
+        <p>
+          An open color system using oklch to create a flexible and decomposable palette using modern CSS.
+          20 colours each with 12 steps, and a 13 step neutral scale provide flexibility for design while
+          consistent calculations make subtle changes easily possible.
+        </p>
+
+        <p>
+          Add <code>@import "https://unpkg.com/openswatch"</code> in your CSS to start using.
+        </p>
+
+        <p>
+          Install the package with <code>npm i openswatch</code> to use with CSS bundlers.
+        </p>
+      </div>
+      <section>
+        <pre>
+          <code>
+          .success {
+            <span style="color:var(--green-8)">/* full set of CSS variables */</span>
+            color: var(<span style="color:var(--blue-8)">--green-6</span>);
+            background: var(<span style="color:var(--blue-8)">--green-3</span>);
+          }
+
+          :root[data-high-intensity] {
+            <span style="color:var(--green-8)">/* tweak ramps with a few base vars */</span>
+            <span style="color:var(--blue-8)">--color-lightness-inc</span>: - 8%;
+            <span style="color:var(--blue-8)">--color-chroma-inc</span>: 0.6;
+          }
+          </code>
+        </pre>
+      </section>
+    </header>
+    {% assign colors = "Neutral, Stone, Slate, Red, Orange, Amber, Gold, Yellow, Lime, Green, Emerald, Teal, Cyan, Sky, Blue, Violet, Purple, Fuchsia, Magenta, Pink, Rose" | split: ", " %}
+
+    <main>
+
+      {% for color in colors %}
+      <div scale>
+        <h2>{{color}} Scale</h2>
+        {% assign max = 12 %}
+        {% if color == "Neutral" %}{% assign max = 13 %}{% endif %}
+
+        {% for i in (1..max) %}
+        <div swatch>
+          <button aria-label="Copy {{color}} {{i}}" style="background:var(--{{ color | downcase }}-{{i}})">
+            &nbsp;
+          </button>
+          <span>{{ color }} {{i}}</span>
+        </div>
+        {% endfor %}
+      </div>
+      {% endfor %}
+
+    </main>
+
+    <script type="module">
+      document.addEventListener("click", (e) => {
+        const target = e.target.closest("[swatch]>button")
+        if (target) {
+          navigator.clipboard.writeText(target.style.background);
+          let oldLabel = target.ariaLabel;
+          target.textContent = target.ariaLabel = "Copied!";
+          setTimeout(() => {
+            target.innerHTML = "&nbsp;";
+            target.ariaLabel = oldLabel;
+          }, 1000);
+        }
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,25 @@
+{
+  "name": "openswatch",
+  "version": "0.0.0-dev",
+  "description": "An open source colour scheme using oklch",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keithamus/openswatch.git"
+  },
+  "license": "MIT",
+  "author": "Keith Cirkel <https://keithcirkel.co.uk>",
+  "type": "module",
+  "main": "css/open-swatch.css",
+  "style": "css/open-swatch.css",
+  "files": [
+    "css/open-lch.css"
+  ],
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "start": "npx @11ty/eleventy --serve",
+    "test": "echo \"Error: no test specified\""
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
+}
