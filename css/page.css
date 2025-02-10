@@ -32,16 +32,16 @@ body {
 
 [hero] {
   border-radius: 1rem;
-  padding: 2rem;
+  padding: 1rem;
   margin: 1rem;
   background: var(--neutral-1);
   box-shadow: var(--shadow-1);
   display: grid;
-  grid-template-rows: 0.25fr 1fr;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 100%;
   grid-template-areas:
-    "title code"
-    "desc code";
+    "title"
+    "desc"
+    "code";
 
   h1 {
     margin-top: 0;
@@ -50,6 +50,18 @@ body {
 
   section {
     grid-area: code;
+  }
+
+  @media (width >= 480px) {
+    padding: 2rem;
+  }
+
+  @media (width >= 768px) {
+    grid-template-rows: 0.25fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+      "title code"
+      "desc code";
   }
 
   @media (prefers-color-scheme: dark) {
@@ -64,17 +76,35 @@ body {
   display: grid;
   margin: 1rem;
   gap: 0.5rem;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(2, auto);
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, auto);
   grid-template-areas:
-    "h h h h h h h h h h h h"
-    ". . . . . . . . . . . .";
+    "h h h h"
+    ". . . ."
+    ". . . .";
 
-  &:has(:nth-child(14)) {
-    grid-template-columns: repeat(13, 1fr);
+  @media (width >= 480px) {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, auto);
     grid-template-areas:
-      "h h h h h h h h h h h h h"
-      ". . . . . . . . . . . . .";
+      "h h h h h h"
+      ". . . . . ."
+      ". . . . . .";
+  }
+
+  @media (width >= 768px) {
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas:
+      "h h h h h h h h h h h h"
+      ". . . . . . . . . . . .";
+
+    &:has(:nth-child(14)) {
+      grid-template-columns: repeat(13, 1fr);
+      grid-template-areas:
+        "h h h h h h h h h h h h h"
+        ". . . . . . . . . . . . .";
+    }
   }
 
   h2 {
@@ -84,8 +114,8 @@ body {
   [swatch] {
     display: grid;
     gap: 0.5rem;
-    text-indent: 0.5rem;
     grid-template-rows: repeat(2, auto);
+    grid-template-columns: subgrid;
 
     button {
       width: 100%;

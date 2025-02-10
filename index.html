@@ -4,6 +4,7 @@
     <link rel="stylesheet" href="./css/open-swatch.css">
     <link rel="stylesheet" href="./css/page.css">
     <title>open swatch - the open color system</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
 
   <body>
@@ -27,18 +28,18 @@
       <section>
         <pre>
           <code>
-          .success {
-            <span style="color:var(--green-8)">/* full set of CSS variables */</span>
-            color: var(<span style="color:var(--blue-8)">--green-6</span>);
-            background: var(<span style="color:var(--blue-8)">--green-3</span>);
-          }
+.success {
+  <span style="color:var(--green-8)">/* full set of CSS variables */</span>
+  color: var(<span style="color:var(--blue-8)">--green-6</span>);
+  background: var(<span style="color:var(--blue-8)">--green-3</span>);
+}
 
-          :root[data-high-intensity] {
-            <span style="color:var(--green-8)">/* tweak ramps with a few base vars */</span>
-            <span style="color:var(--blue-8)">--color-lightness-inc</span>: - 8%;
-            <span style="color:var(--blue-8)">--color-chroma-inc</span>: 0.6;
-          }
-          </code>
+:root[data-high-intensity] {
+  <span style="color:var(--green-8)">/* tweak color ramps by changing</span>
+  <span style="color:var(--green-8)">a couple of base varirables... */</span>
+  <span style="color:var(--blue-8)">--color-lightness-inc</span>: - 8%;
+  <span style="color:var(--blue-8)">--color-chroma-inc</span>: 0.6;
+}</code>
         </pre>
       </section>
     </header>
