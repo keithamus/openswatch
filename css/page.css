@@ -30,6 +30,16 @@ body {
   }
 }
 
+a {
+  color: var(--neutral-13);
+  &:is(:focus, :active) {
+    color: black;
+    @media (prefers-color-scheme: dark) {
+      color: white;
+    }
+  }
+}
+
 [hero] {
   border-radius: 1rem;
   padding: 1rem;
