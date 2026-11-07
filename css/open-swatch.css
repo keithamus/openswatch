@@ -1,35 +1,1925 @@
+@property --color-neutral-lightness-inc {
+	syntax: "<percentage>";
+	inherits: true;
+	initial-value: -6%;
+}
+
+@property --color-neutral-lightness-1 {
+	syntax: "<percentage>";
+	inherits: true;
+	initial-value: 100%;
+}
+
+@property --color-neutral-lightness-2 {
+	syntax: "<percentage>";
+	inherits: true;
+	initial-value: 0%;
+}
+
+@property --color-neutral-lightness-3 {
+	syntax: "<percentage>";
+	inherits: true;
+	initial-value: 0%;
+}
+
+@property --color-neutral-lightness-4 {
+	syntax: "<percentage>";
+	inherits: true;
+	initial-value: 0%;
+}
+
+@property --color-neutral-lightness-5 {
+	syntax: "<percentage>";
+	inherits: true;
+	initial-value: 0%;
+}
+
+@property --color-neutral-lightness-6 {
+	syntax: "<percentage>";
+	inherits: true;
+	initial-value: 0%;
+}
+
+@property --color-neutral-lightness-7 {
+	syntax: "<percentage>";
+	inherits: true;
+	initial-value: 0%;
+}
+
+@property --color-neutral-lightness-8 {
+	syntax: "<percentage>";
+	inherits: true;
+	initial-value: 0%;
+}
+
+@property --color-neutral-lightness-9 {
+	syntax: "<percentage>";
+	inherits: true;
+	initial-value: 0%;
+}
+
+@property --color-neutral-lightness-10 {
+	syntax: "<percentage>";
+	inherits: true;
+	initial-value: 0%;
+}
+
+@property --color-neutral-lightness-11 {
+	syntax: "<percentage>";
+	inherits: true;
+	initial-value: 0%;
+}
+
+@property --color-neutral-lightness-12 {
+	syntax: "<percentage>";
+	inherits: true;
+	initial-value: 0%;
+}
+
+@property --color-neutral-lightness-13 {
+	syntax: "<percentage>";
+	inherits: true;
+	initial-value: 0%;
+}
+
+@property --color-lightness-inc {
+	syntax: "<percentage>";
+	inherits: true;
+	initial-value: -6%;
+}
+
+@property --color-lightness-1 {
+	syntax: "<percentage>";
+	inherits: true;
+	initial-value: 100%;
+}
+
+@property --color-lightness-2 {
+	syntax: "<percentage>";
+	inherits: true;
+	initial-value: 0%;
+}
+
+@property --color-lightness-3 {
+	syntax: "<percentage>";
+	inherits: true;
+	initial-value: 0%;
+}
+
+@property --color-lightness-4 {
+	syntax: "<percentage>";
+	inherits: true;
+	initial-value: 0%;
+}
+
+@property --color-lightness-5 {
+	syntax: "<percentage>";
+	inherits: true;
+	initial-value: 0%;
+}
+
+@property --color-lightness-6 {
+	syntax: "<percentage>";
+	inherits: true;
+	initial-value: 0%;
+}
+
+@property --color-lightness-7 {
+	syntax: "<percentage>";
+	inherits: true;
+	initial-value: 0%;
+}
+
+@property --color-lightness-8 {
+	syntax: "<percentage>";
+	inherits: true;
+	initial-value: 0%;
+}
+
+@property --color-lightness-9 {
+	syntax: "<percentage>";
+	inherits: true;
+	initial-value: 0%;
+}
+
+@property --color-lightness-10 {
+	syntax: "<percentage>";
+	inherits: true;
+	initial-value: 0%;
+}
+
+@property --color-lightness-11 {
+	syntax: "<percentage>";
+	inherits: true;
+	initial-value: 0%;
+}
+
+@property --color-lightness-12 {
+	syntax: "<percentage>";
+	inherits: true;
+	initial-value: 0%;
+}
+
+@property --color-chroma-inc {
+	syntax: "<number>";
+	inherits: true;
+	initial-value: 0.03;
+}
+
+@property --color-chroma-1 {
+	syntax: "<number>";
+	inherits: true;
+	initial-value: 0.02;
+}
+
+@property --color-chroma-2 {
+	syntax: "<number>";
+	inherits: true;
+	initial-value: 0;
+}
+
+@property --color-chroma-3 {
+	syntax: "<number>";
+	inherits: true;
+	initial-value: 0;
+}
+
+@property --color-chroma-4 {
+	syntax: "<number>";
+	inherits: true;
+	initial-value: 0;
+}
+
+@property --color-chroma-5 {
+	syntax: "<number>";
+	inherits: true;
+	initial-value: 0;
+}
+
+@property --color-chroma-6 {
+	syntax: "<number>";
+	inherits: true;
+	initial-value: 0;
+}
+
+@property --color-chroma-7 {
+	syntax: "<number>";
+	inherits: true;
+	initial-value: 0;
+}
+
+@property --color-chroma-8 {
+	syntax: "<number>";
+	inherits: true;
+	initial-value: 0;
+}
+
+@property --color-chroma-9 {
+	syntax: "<number>";
+	inherits: true;
+	initial-value: 0;
+}
+
+@property --color-chroma-10 {
+	syntax: "<number>";
+	inherits: true;
+	initial-value: 0;
+}
+
+@property --color-chroma-11 {
+	syntax: "<number>";
+	inherits: true;
+	initial-value: 0;
+}
+
+@property --color-chroma-12 {
+	syntax: "<number>";
+	inherits: true;
+	initial-value: 0;
+}
+
+@property --color-neutral-base {
+	syntax: "<number>";
+	inherits: true;
+	initial-value: 200;
+}
+
+@property --color-neutral-chroma-base {
+	syntax: "<number>";
+	inherits: true;
+	initial-value: 0.005;
+}
+
+@property --color-gray-chroma-base {
+	syntax: "<number>";
+	inherits: true;
+	initial-value: 0.01;
+}
+
+@property --color-stone-base {
+	syntax: "<number>";
+	inherits: true;
+	initial-value: 130;
+}
+
+@property --color-slate-base {
+	syntax: "<number>";
+	inherits: true;
+	initial-value: 256;
+}
+
+@property --color-pink-base {
+	syntax: "<number>";
+	inherits: true;
+	initial-value: 0;
+}
+
+@property --color-rose-base {
+	syntax: "<number>";
+	inherits: true;
+	initial-value: 12;
+}
+
+@property --color-red-base {
+	syntax: "<number>";
+	inherits: true;
+	initial-value: 30;
+}
+
+@property --color-orange-base {
+	syntax: "<number>";
+	inherits: true;
+	initial-value: 60;
+}
+
+@property --color-amber-base {
+	syntax: "<number>";
+	inherits: true;
+	initial-value: 80;
+}
+
+@property --color-gold-base {
+	syntax: "<number>";
+	inherits: true;
+	initial-value: 100;
+}
+
+@property --color-yellow-base {
+	syntax: "<number>";
+	inherits: true;
+	initial-value: 92.5;
+}
+
+@property --color-lime-base {
+	syntax: "<number>";
+	inherits: true;
+	initial-value: 125;
+}
+
+@property --color-green-base {
+	syntax: "<number>";
+	inherits: true;
+	initial-value: 140;
+}
+
+@property --color-emerald-base {
+	syntax: "<number>";
+	inherits: true;
+	initial-value: 165;
+}
+
+@property --color-teal-base {
+	syntax: "<number>";
+	inherits: true;
+	initial-value: 180;
+}
+
+@property --color-cyan-base {
+	syntax: "<number>";
+	inherits: true;
+	initial-value: 207;
+}
+
+@property --color-sky-base {
+	syntax: "<number>";
+	inherits: true;
+	initial-value: 225;
+}
+
+@property --color-blue-base {
+	syntax: "<number>";
+	inherits: true;
+	initial-value: 260;
+}
+
+@property --color-violet-base {
+	syntax: "<number>";
+	inherits: true;
+	initial-value: 285;
+}
+
+@property --color-purple-base {
+	syntax: "<number>";
+	inherits: true;
+	initial-value: 300;
+}
+
+@property --color-fuchsia-base {
+	syntax: "<number>";
+	inherits: true;
+	initial-value: 320;
+}
+
+@property --color-magenta-base {
+	syntax: "<number>";
+	inherits: true;
+	initial-value: 330;
+}
+
+@property --neutral-1 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --neutral-2 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --neutral-3 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --neutral-4 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --neutral-5 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --neutral-6 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --neutral-7 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --neutral-8 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --neutral-9 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --neutral-10 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --neutral-11 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --neutral-12 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --neutral-13 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --stone-1 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --stone-2 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --stone-3 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --stone-4 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --stone-5 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --stone-6 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --stone-7 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --stone-8 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --stone-9 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --stone-10 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --stone-11 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --stone-12 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --slate-1 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --slate-2 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --slate-3 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --slate-4 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --slate-5 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --slate-6 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --slate-7 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --slate-8 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --slate-9 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --slate-10 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --slate-11 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --slate-12 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --pink-1 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --pink-2 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --pink-3 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --pink-4 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --pink-5 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --pink-6 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --pink-7 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --pink-8 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --pink-9 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --pink-10 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --pink-11 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --pink-12 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --red-1 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --red-2 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --red-3 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --red-4 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --red-5 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --red-6 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --red-7 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --red-8 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --red-9 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --red-10 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --red-11 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --red-12 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --orange-1 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --orange-2 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --orange-3 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --orange-4 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --orange-5 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --orange-6 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --orange-7 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --orange-8 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --orange-9 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --orange-10 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --orange-11 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --orange-12 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --amber-1 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --amber-2 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --amber-3 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --amber-4 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --amber-5 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --amber-6 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --amber-7 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --amber-8 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --amber-9 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --amber-10 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --amber-11 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --amber-12 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --gold-1 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --gold-2 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --gold-3 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --gold-4 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --gold-5 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --gold-6 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --gold-7 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --gold-8 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --gold-9 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --gold-10 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --gold-11 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --gold-12 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --yellow-1 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --yellow-2 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --yellow-3 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --yellow-4 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --yellow-5 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --yellow-6 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --yellow-7 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --yellow-8 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --yellow-9 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --yellow-10 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --yellow-11 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --yellow-12 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --lime-1 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --lime-2 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --lime-3 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --lime-4 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --lime-5 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --lime-6 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --lime-7 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --lime-8 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --lime-9 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --lime-10 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --lime-11 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --lime-12 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --green-1 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --green-2 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --green-3 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --green-4 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --green-5 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --green-6 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --green-7 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --green-8 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --green-9 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --green-10 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --green-11 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --green-12 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --emerald-1 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --emerald-2 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --emerald-3 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --emerald-4 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --emerald-5 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --emerald-6 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --emerald-7 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --emerald-8 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --emerald-9 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --emerald-10 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --emerald-11 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --emerald-12 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --teal-1 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --teal-2 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --teal-3 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --teal-4 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --teal-5 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --teal-6 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --teal-7 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --teal-8 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --teal-9 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --teal-10 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --teal-11 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --teal-12 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --cyan-1 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --cyan-2 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --cyan-3 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --cyan-4 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --cyan-5 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --cyan-6 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --cyan-7 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --cyan-8 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --cyan-9 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --cyan-10 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --cyan-11 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --cyan-12 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --sky-1 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --sky-2 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --sky-3 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --sky-4 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --sky-5 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --sky-6 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --sky-7 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --sky-8 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --sky-9 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --sky-10 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --sky-11 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --sky-12 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --blue-1 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --blue-2 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --blue-3 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --blue-4 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --blue-5 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --blue-6 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --blue-7 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --blue-8 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --blue-9 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --blue-10 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --blue-11 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --blue-12 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --violet-1 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --violet-2 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --violet-3 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --violet-4 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --violet-5 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --violet-6 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --violet-7 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --violet-8 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --violet-9 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --violet-10 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --violet-11 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --violet-12 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --purple-1 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --purple-2 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --purple-3 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --purple-4 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --purple-5 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --purple-6 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --purple-7 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --purple-8 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --purple-9 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --purple-10 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --purple-11 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --purple-12 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --fuchsia-1 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --fuchsia-2 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --fuchsia-3 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --fuchsia-4 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --fuchsia-5 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --fuchsia-6 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --fuchsia-7 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --fuchsia-8 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --fuchsia-9 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --fuchsia-10 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --fuchsia-11 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --fuchsia-12 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --magenta-1 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --magenta-2 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --magenta-3 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --magenta-4 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --magenta-5 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --magenta-6 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --magenta-7 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --magenta-8 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --magenta-9 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --magenta-10 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --magenta-11 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --magenta-12 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --rose-1 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --rose-2 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --rose-3 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --rose-4 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --rose-5 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --rose-6 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --rose-7 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --rose-8 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --rose-9 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --rose-10 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --rose-11 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
+@property --rose-12 {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: transparent;
+}
+
 :root {
-	--color-neutral-lightness-inc: - 6%;
-	--color-neutral-lightness-1: 100%;
-	--color-neutral-lightness-2: calc(var(--color-neutral-lightness-1) var(--color-neutral-lightness-inc));
-	--color-neutral-lightness-3: calc(var(--color-neutral-lightness-2) var(--color-neutral-lightness-inc));
-	--color-neutral-lightness-4: calc(var(--color-neutral-lightness-3) var(--color-neutral-lightness-inc));
-	--color-neutral-lightness-5: calc(var(--color-neutral-lightness-4) var(--color-neutral-lightness-inc));
-	--color-neutral-lightness-6: calc(var(--color-neutral-lightness-5) var(--color-neutral-lightness-inc));
-	--color-neutral-lightness-7: calc(var(--color-neutral-lightness-6) var(--color-neutral-lightness-inc));
-	--color-neutral-lightness-8: calc(var(--color-neutral-lightness-7) var(--color-neutral-lightness-inc));
-	--color-neutral-lightness-9: calc(var(--color-neutral-lightness-8) var(--color-neutral-lightness-inc));
-	--color-neutral-lightness-10: calc(var(--color-neutral-lightness-9) var(--color-neutral-lightness-inc));
-	--color-neutral-lightness-11: calc(var(--color-neutral-lightness-10) var(--color-neutral-lightness-inc));
-	--color-neutral-lightness-12: calc(var(--color-neutral-lightness-11) var(--color-neutral-lightness-inc));
-	--color-neutral-lightness-13: calc(var(--color-neutral-lightness-12) var(--color-neutral-lightness-inc));
+	--color-neutral-lightness-2: calc(var(--color-neutral-lightness-1) + var(--color-neutral-lightness-inc));
+	--color-neutral-lightness-3: calc(var(--color-neutral-lightness-2) + var(--color-neutral-lightness-inc));
+	--color-neutral-lightness-4: calc(var(--color-neutral-lightness-3) + var(--color-neutral-lightness-inc));
+	--color-neutral-lightness-5: calc(var(--color-neutral-lightness-4) + var(--color-neutral-lightness-inc));
+	--color-neutral-lightness-6: calc(var(--color-neutral-lightness-5) + var(--color-neutral-lightness-inc));
+	--color-neutral-lightness-7: calc(var(--color-neutral-lightness-6) + var(--color-neutral-lightness-inc));
+	--color-neutral-lightness-8: calc(var(--color-neutral-lightness-7) + var(--color-neutral-lightness-inc));
+	--color-neutral-lightness-9: calc(var(--color-neutral-lightness-8) + var(--color-neutral-lightness-inc));
+	--color-neutral-lightness-10: calc(var(--color-neutral-lightness-9) + var(--color-neutral-lightness-inc));
+	--color-neutral-lightness-11: calc(var(--color-neutral-lightness-10) + var(--color-neutral-lightness-inc));
+	--color-neutral-lightness-12: calc(var(--color-neutral-lightness-11) + var(--color-neutral-lightness-inc));
+	--color-neutral-lightness-13: calc(var(--color-neutral-lightness-12) + var(--color-neutral-lightness-inc));
 
-	--color-lightness-inc: - 6%;
-	--color-lightness-1: 100%;
-	--color-lightness-2: calc(var(--color-lightness-1) var(--color-lightness-inc));
-	--color-lightness-3: calc(var(--color-lightness-2) var(--color-lightness-inc));
-	--color-lightness-4: calc(var(--color-lightness-3) var(--color-lightness-inc));
-	--color-lightness-5: calc(var(--color-lightness-4) var(--color-lightness-inc));
-	--color-lightness-6: calc(var(--color-lightness-5) var(--color-lightness-inc));
-	--color-lightness-7: calc(var(--color-lightness-6) var(--color-lightness-inc));
-	--color-lightness-8: calc(var(--color-lightness-7) var(--color-lightness-inc));
-	--color-lightness-9: calc(var(--color-lightness-8) var(--color-lightness-inc));
-	--color-lightness-10: calc(var(--color-lightness-9) var(--color-lightness-inc));
-	--color-lightness-11: calc(var(--color-lightness-10) var(--color-lightness-inc));
-	--color-lightness-12: calc(var(--color-lightness-11) var(--color-lightness-inc));
+	--color-lightness-2: calc(var(--color-lightness-1) + var(--color-lightness-inc));
+	--color-lightness-3: calc(var(--color-lightness-2) + var(--color-lightness-inc));
+	--color-lightness-4: calc(var(--color-lightness-3) + var(--color-lightness-inc));
+	--color-lightness-5: calc(var(--color-lightness-4) + var(--color-lightness-inc));
+	--color-lightness-6: calc(var(--color-lightness-5) + var(--color-lightness-inc));
+	--color-lightness-7: calc(var(--color-lightness-6) + var(--color-lightness-inc));
+	--color-lightness-8: calc(var(--color-lightness-7) + var(--color-lightness-inc));
+	--color-lightness-9: calc(var(--color-lightness-8) + var(--color-lightness-inc));
+	--color-lightness-10: calc(var(--color-lightness-9) + var(--color-lightness-inc));
+	--color-lightness-11: calc(var(--color-lightness-10) + var(--color-lightness-inc));
+	--color-lightness-12: calc(var(--color-lightness-11) + var(--color-lightness-inc));
 
-	--color-chroma-inc: 0.03;
-	--color-chroma-1: 0.02;
 	--color-chroma-2: calc(var(--color-chroma-1) + var(--color-chroma-inc));
 	--color-chroma-3: calc(var(--color-chroma-2) + var(--color-chroma-inc));
 	--color-chroma-4: calc(var(--color-chroma-3) + var(--color-chroma-inc));
@@ -38,60 +1928,23 @@
 	--color-chroma-7: calc(var(--color-chroma-6) + var(--color-chroma-inc));
 	--color-chroma-8: calc(var(--color-chroma-7) - var(--color-chroma-inc));
 	--color-chroma-9: calc(var(--color-chroma-8) - var(--color-chroma-inc));
-	--color-chroma-10: calc(var(--color-chroma-9) - var(--color-chroma-inc)); 
+	--color-chroma-10: calc(var(--color-chroma-9) - var(--color-chroma-inc));
 	--color-chroma-11: calc(var(--color-chroma-10) - var(--color-chroma-inc));
 	--color-chroma-12: calc(var(--color-chroma-11) - var(--color-chroma-inc));
 
-	--color-neutral-base: 200;
-	--color-neutral-chroma-base: 0.005;
-	--color-gray-chroma-base: 0.01;
-	--color-stone-base: 130;
-	--color-slate-base: 256;
-	--color-pink-base: 0;
-	--color-rose-base: 12;
-	--color-red-base: 30;
-	--color-orange-base: 60;
-	--color-amber-base: 80;
-	--color-gold-base: 100;
-	--color-yellow-base: 92.5;
-	--color-lime-base: 125;
-	--color-green-base: 140;
-	--color-emerald-base: 165;
-	--color-teal-base: 180;
-	--color-cyan-base: 207;
-	--color-sky-base: 225;
-	--color-blue-base: 260;
-	--color-violet-base: 285;
-	--color-purple-base: 300;
-	--color-fuchsia-base: 320;
-	--color-magenta-base: 330;
-
-	--neutral-1-values: var(--color-neutral-lightness-1) var(--color-neutral-chroma-base) var(--color-neutral-base);
-	--neutral-2-values: var(--color-neutral-lightness-2) var(--color-neutral-chroma-base) var(--color-neutral-base);
-	--neutral-3-values: var(--color-neutral-lightness-3) var(--color-neutral-chroma-base) var(--color-neutral-base);
-	--neutral-4-values: var(--color-neutral-lightness-4) var(--color-neutral-chroma-base) var(--color-neutral-base);
-	--neutral-5-values: var(--color-neutral-lightness-5) var(--color-neutral-chroma-base) var(--color-neutral-base);
-	--neutral-6-values: var(--color-neutral-lightness-6) var(--color-neutral-chroma-base) var(--color-neutral-base);
-	--neutral-7-values: var(--color-neutral-lightness-7) var(--color-neutral-chroma-base) var(--color-neutral-base);
-	--neutral-8-values: var(--color-neutral-lightness-8) var(--color-neutral-chroma-base) var(--color-neutral-base);
-	--neutral-9-values: var(--color-neutral-lightness-9) var(--color-neutral-chroma-base) var(--color-neutral-base);
-	--neutral-10-values: var(--color-neutral-lightness-10) var(--color-neutral-chroma-base) var(--color-neutral-base);
-	--neutral-11-values: var(--color-neutral-lightness-11) var(--color-neutral-chroma-base) var(--color-neutral-base);
-	--neutral-12-values: var(--color-neutral-lightness-12) var(--color-neutral-chroma-base) var(--color-neutral-base);
-	--neutral-13-values: var(--color-neutral-lightness-13) var(--color-neutral-chroma-base) var(--color-neutral-base);
-	--neutral-1: oklch(var(--neutral-1-values));
-	--neutral-2: oklch(var(--neutral-2-values));
-	--neutral-3: oklch(var(--neutral-3-values));
-	--neutral-4: oklch(var(--neutral-4-values));
-	--neutral-5: oklch(var(--neutral-5-values));
-	--neutral-6: oklch(var(--neutral-6-values));
-	--neutral-7: oklch(var(--neutral-7-values));
-	--neutral-8: oklch(var(--neutral-8-values));
-	--neutral-9: oklch(var(--neutral-9-values));
-	--neutral-10: oklch(var(--neutral-10-values));
-	--neutral-11: oklch(var(--neutral-11-values));
-	--neutral-12: oklch(var(--neutral-12-values));
-	--neutral-13: oklch(var(--neutral-13-values));
+	--neutral-1: oklch(var(--color-neutral-lightness-1) var(--color-neutral-chroma-base) var(--color-neutral-base));
+	--neutral-2: oklch(var(--color-neutral-lightness-2) var(--color-neutral-chroma-base) var(--color-neutral-base));
+	--neutral-3: oklch(var(--color-neutral-lightness-3) var(--color-neutral-chroma-base) var(--color-neutral-base));
+	--neutral-4: oklch(var(--color-neutral-lightness-4) var(--color-neutral-chroma-base) var(--color-neutral-base));
+	--neutral-5: oklch(var(--color-neutral-lightness-5) var(--color-neutral-chroma-base) var(--color-neutral-base));
+	--neutral-6: oklch(var(--color-neutral-lightness-6) var(--color-neutral-chroma-base) var(--color-neutral-base));
+	--neutral-7: oklch(var(--color-neutral-lightness-7) var(--color-neutral-chroma-base) var(--color-neutral-base));
+	--neutral-8: oklch(var(--color-neutral-lightness-8) var(--color-neutral-chroma-base) var(--color-neutral-base));
+	--neutral-9: oklch(var(--color-neutral-lightness-9) var(--color-neutral-chroma-base) var(--color-neutral-base));
+	--neutral-10: oklch(var(--color-neutral-lightness-10) var(--color-neutral-chroma-base) var(--color-neutral-base));
+	--neutral-11: oklch(var(--color-neutral-lightness-11) var(--color-neutral-chroma-base) var(--color-neutral-base));
+	--neutral-12: oklch(var(--color-neutral-lightness-12) var(--color-neutral-chroma-base) var(--color-neutral-base));
+	--neutral-13: oklch(var(--color-neutral-lightness-13) var(--color-neutral-chroma-base) var(--color-neutral-base));
 
 	--stone-1: oklch(var(--color-lightness-1) var(--color-gray-chroma-base) var(--color-stone-base));
 	--stone-2: oklch(var(--color-lightness-2) var(--color-gray-chroma-base) var(--color-stone-base));
@@ -353,9 +2206,4 @@
 	--rose-10: oklch(var(--color-lightness-10) var(--color-chroma-10) var(--color-rose-base));
 	--rose-11: oklch(var(--color-lightness-11) var(--color-chroma-11) var(--color-rose-base));
 	--rose-12: oklch(var(--color-lightness-12) var(--color-chroma-12) var(--color-rose-base));
-
-  @media (prefers-color-scheme: dark) {
-    --color-neutral-lightness-inc: + 6.5%;
-    --color-neutral-lightness-1: 7%;
-  }
 }

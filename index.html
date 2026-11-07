@@ -36,15 +36,64 @@
   background: var(<span style="color:var(--blue-8)">--green-3</span>);
 }
 
-:root[data-high-intensity] {
+:root {
   <span style="color:var(--green-8)">/* tweak color ramps by changing</span>
   <span style="color:var(--green-8)">a couple of base variables... */</span>
-  <span style="color:var(--blue-8)">--color-lightness-inc</span>: - 8%;
-  <span style="color:var(--blue-8)">--color-chroma-inc</span>: 0.6;
-}</code>
+  <span style="color:var(--blue-8)">--color-lightness-1</span>: <span data-value="--color-lightness-1">100%</span>;
+  <span style="color:var(--blue-8)">--color-lightness-inc</span>: <span data-value="--color-lightness-inc">-6%</span>;
+  <span style="color:var(--blue-8)">--color-chroma-inc</span>: <span data-value="--color-chroma-inc">0.03</span>;
+  <span style="color:var(--blue-8)">--color-neutral-lightness-1</span>: <span data-value="--color-neutral-lightness-1">100%</span>;
+  <span style="color:var(--blue-8)">--color-neutral-lightness-inc</span>: <span data-value="--color-neutral-lightness-inc">-6%</span>;
+  <span style="color:var(--blue-8)">--color-neutral-chroma-base</span>: <span data-value="--color-neutral-chroma-base">0.005</span>;
+}<span data-scheme-block="">
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    <span style="color:var(--blue-8)">--color-neutral-lightness-inc</span>: <span data-scheme-value="--color-neutral-lightness-inc">6.5%</span>;
+    <span style="color:var(--blue-8)">--color-neutral-lightness-1</span>: <span data-scheme-value="--color-neutral-lightness-1">7%</span>;
+  }
+}</span><span data-scheme-block="light" hidden>
+
+:root[data-scheme="light"] {
+  color-scheme: light;
+}</span><span data-scheme-block="dark" hidden>
+
+:root[data-scheme="dark"] {
+  color-scheme: dark;
+  <span style="color:var(--blue-8)">--color-neutral-lightness-inc</span>: <span data-scheme-value="--color-neutral-lightness-inc">6.5%</span>;
+  <span style="color:var(--blue-8)">--color-neutral-lightness-1</span>: <span data-scheme-value="--color-neutral-lightness-1">7%</span>;
+}</span><span data-scheme-block="dimmed" hidden>
+
+:root[data-scheme="dimmed"] {
+  color-scheme: dark;
+  <span style="color:var(--blue-8)">--color-neutral-lightness-inc</span>: <span data-scheme-value="--color-neutral-lightness-inc">6%</span>;
+  <span style="color:var(--blue-8)">--color-neutral-lightness-1</span>: <span data-scheme-value="--color-neutral-lightness-1">16%</span>;
+  <span style="color:var(--blue-8)">--color-lightness-1</span>: <span data-scheme-value="--color-lightness-1">92%</span>;
+}</span></code>
         </pre>
       </section>
     </header>
+
+    <form controls aria-label="Customise the palette">
+      <fieldset>
+        <legend>Scheme</legend>
+        <label><input type="radio" name="scheme" value="" checked>Auto</label>
+        <label><input type="radio" name="scheme" value="light">Light</label>
+        <label><input type="radio" name="scheme" value="dark">Dark</label>
+        <label><input type="radio" name="scheme" value="dimmed">Dimmed</label>
+      </fieldset>
+      <label>
+        Intensity
+        <input type="range" name="--color-chroma-inc" min="0" max="0.05" step="0.0025" value="0.03">
+        <output>0.03</output>
+      </label>
+      <label>
+        Neutral chroma
+        <input type="range" name="--color-neutral-chroma-base" min="0" max="0.05" step="0.001" value="0.005">
+        <output>0.005</output>
+      </label>
+      <button type="reset">Reset</button>
+    </form>
     {% assign colors = "Neutral, Stone, Slate, Red, Orange, Amber, Gold, Yellow, Lime, Green, Emerald, Teal, Cyan, Sky, Blue, Violet, Purple, Fuchsia, Magenta, Pink, Rose" | split: ", " %}
 
     <main>
@@ -81,6 +130,40 @@
           }, 1000);
         }
       });
+
+      const root = document.documentElement;
+      const controls = document.querySelector("[controls]");
+      const sampleValues = [...document.querySelectorAll("[data-value]")].map((el) => [el, el.textContent]);
+      const schemeBlocks = document.querySelectorAll("[data-scheme-block]");
+      const updateSample = () => {
+        const style = getComputedStyle(root);
+        const scheme = root.dataset.scheme ?? "";
+        const overridden = new Set();
+        for (const block of schemeBlocks) {
+          block.hidden = block.dataset.schemeBlock !== scheme;
+          if (block.hidden) continue;
+          for (const el of block.querySelectorAll("[data-scheme-value]")) overridden.add(el.dataset.schemeValue);
+        }
+        for (const [el, light] of sampleValues) {
+          el.textContent = overridden.has(el.dataset.value) ? light : style.getPropertyValue(el.dataset.value);
+        }
+      };
+      controls.addEventListener("input", ({ target }) => {
+        if (target.name === "scheme") {
+          if (target.value) root.dataset.scheme = target.value;
+          else delete root.dataset.scheme;
+        } else {
+          root.style.setProperty(target.name, target.value);
+          target.nextElementSibling.value = target.value;
+        }
+        updateSample();
+      });
+      controls.addEventListener("reset", () => {
+        delete root.dataset.scheme;
+        root.removeAttribute("style");
+        updateSample();
+      });
+      updateSample();
     </script>
   </body>
 </html>
